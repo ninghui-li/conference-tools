@@ -14,4 +14,5 @@ pair of <PC member P, author A> and contains the following fields:
 - row[6]: email of A
 - row[7]: full name of A
 - row[8]: total number of submissions by A
+
 A row is included in the output csv file only when either row[0]>=3 or (row[0]>=2 and row[3] is at least half of number of papers submitted by A)
